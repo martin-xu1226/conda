@@ -66,6 +66,25 @@ commands:
 
 ```
 
+```bash
+$ conda env -h
+usage: conda-script.py env [-h] command ...
+
+positional arguments:
+  command
+    config    Configure a conda environment.
+    create    Create an environment based on an environment definition file.
+    export    Export a given environment
+    list      An alias for `conda info --envs`. Lists all conda environments.
+    remove    Remove an environment.
+    update    Update the current environment based on environment file.
+
+options:
+  -h, --help  Show this help message and exit.
+
+
+```
+
 - **配置国内镜像源**
 
 ```shell
